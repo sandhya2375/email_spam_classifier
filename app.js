@@ -5,12 +5,12 @@ let stats = { total: 0, spam: 0, legit: 0 };
 // ===== Config =====
 // Option 1: Direct Claude API (add your key in .env or here for local dev)
 // Option 2: Use backend/server.js proxy (recommended for production)
-const USE_BACKEND = true; // set false to call Claude API directly from browser
+const USE_BACKEND = false;; // set false to call Claude API directly from browser
 const BACKEND_URL = "http://localhost:3000/api/classify";
 const CLAUDE_API_URL = "https://api.anthropic.com/v1/messages";
 const CLAUDE_MODEL = "claude-sonnet-4-20250514";
 // WARNING: Never expose your API key in frontend code for production!
-const CLAUDE_API_KEY = ""; // only for local testing
+const CLAUDE_API_KEY = "sk-ant-xxxxxxxx...";; // only for local testing
 
 // ===== Main analyze function =====
 async function analyzeEmail() {
