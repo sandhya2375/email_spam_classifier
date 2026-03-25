@@ -1,6 +1,6 @@
 # 📧 Email Spam Classifier
 
-Claude AI se powered real-time email spam detection app. Subject, sender, aur email body analyze karke batata hai ki email spam hai ya legitimate.
+Ye ek powered real-time email spam detection app hai. Subject, sender, aur email body ko analyze karke batata hai ki email spam hai ya legitimate.
 
 ![Email Spam Classifier](https://img.shields.io/badge/Powered%20by-Claude%20AI-orange?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
